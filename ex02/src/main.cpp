@@ -6,7 +6,7 @@
 /*   By: JFikents <Jfikents@student.42Heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/03 19:54:26 by JFikents          #+#    #+#             */
-/*   Updated: 2024/09/03 20:04:32 by JFikents         ###   ########.fr       */
+/*   Updated: 2024/09/03 20:11:29 by JFikents         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,7 +80,6 @@ static void	identify_from_reference(Base & p)
 int	main(void)
 {
 	srand(time(nullptr));
-
 
 	for (int i = 0; i < 10; i++)
 	{

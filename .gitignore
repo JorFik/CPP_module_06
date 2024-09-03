@@ -4,6 +4,7 @@ en.subject.pdf
 # Executables
 ex00/ScalarConverter
 ex01/Serializer
+ex02/A_B_or_C
 
 # Prerequisites
 *.d

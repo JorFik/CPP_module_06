@@ -9,7 +9,7 @@ ifdef TEST
 CXXFLAGS	+=	-D TEST
 all: fclean $(NAME)
 endif
-_INCLUDE	=	include include/Forms
+_INCLUDE	=	include
 INCLUDE		=	$(addprefix -I, $(_INCLUDE))
 RM			=	rm -f
 

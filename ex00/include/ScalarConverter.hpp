@@ -6,7 +6,7 @@
 /*   By: JFikents <Jfikents@student.42Heilbronn.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/30 15:26:23 by JFikents          #+#    #+#             */
-/*   Updated: 2024/09/03 13:46:57 by JFikents         ###   ########.fr       */
+/*   Updated: 2024/09/03 18:26:40 by JFikents         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,11 @@ class ScalarConverter
 		template <typename T> static void	_cast_and_print(T &value);
 
 	public:
+		ScalarConverter()											= delete;
+		~ScalarConverter()											= delete;
+		ScalarConverter(ScalarConverter const &other)				= delete;
+		ScalarConverter &operator=(ScalarConverter const &other)	= delete;
+
 		static void	convert(std::string const &str);
 
 		class ConverterException;

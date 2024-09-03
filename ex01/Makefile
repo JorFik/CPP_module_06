@@ -60,7 +60,3 @@ ifdef DEBUG
 CXXFLAGS	+=	-g3
 all: fclean $(NAME)
 endif
-ifdef TEST
-CXXFLAGS	+=	-D TEST
-all: fclean $(NAME)
-endif
